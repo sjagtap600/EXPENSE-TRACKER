@@ -1,0 +1,6 @@
+{
+    "name": "Angular Expense Tracker",
+    "dockerFile": "Dockerfile",
+    "appPort": [4200]
+  }
+  
