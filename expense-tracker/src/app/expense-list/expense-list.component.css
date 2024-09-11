@@ -1,0 +1,27 @@
+.expense-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .description {
+    font-weight: bold;
+  }
+  
+  .amount {
+    color: green;
+  }
+  
+  .date {
+    font-style: italic;
+  }
+  

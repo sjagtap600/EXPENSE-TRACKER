@@ -1,0 +1,6 @@
+<p>Test List</p>
+<ul>
+  <li *ngFor="let expense of expenses">
+    {{ expense.description }} - {{ expense.amount }} - {{ expense.date | date:'shortDate' }}
+  </li>
+</ul>
